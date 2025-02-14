@@ -1,11 +1,12 @@
-
+import Login from "./auth/Login"
+import "./assets/global.css"
 
 function App() {
 
   return (
-    <>
-      <p className="underline text-center">Hello</p>
-    </>
+    <div>
+      <Login />
+    </div>
   )
 }
 
